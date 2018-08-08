@@ -1,0 +1,88 @@
+h1 {
+  background-color: lightblue;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
+
+}
+
+p {
+   
+  background-color: lightblue;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 8px;
+}
+
+
+
+span {
+  background-color:red;
+  padding: 8px; /*padding on four sides*/
+  border: 5px solid black;
+  margin: 32px;
+}
+
+.table {
+  display: table;
+}
+
+header {
+  background: green;
+  width: 300em;
+  min-width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+}
+
+nav {
+  background: purple;
+  
+}
+
+article {
+  background: orange;
+  float: left;
+
+
+}
+
+aside {
+  background: blue;
+  float: left;
+  font-size:16px;
+  width:100em;
+ 
+}
+
+footer {
+  clear: left;
+}
+
+.header-container {
+  width: 700px;
+  height: 800px;
+  position: absolute;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+nav {
+  background: yellow;
+  
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+* {
+  text-align: center;
+  margin: 0 auto;
+}

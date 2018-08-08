@@ -1,0 +1,52 @@
+p {
+  color: green;
+}
+
+#introduction {
+  color: blue;
+}
+
+h1, h2 {
+  color: green;
+  display: inline;
+}
+
+#featured-property p {
+  color: red
+}
+
+a:link {
+  color: yellow;
+}
+
+strong {
+  color: purple;
+}
+
+span {
+  display: block;
+}
+
+
+span {
+  padding:3px;
+  margin:1em;
+  text-align: center;
+}
+
+span > p {
+  color: blue;
+}
+
+span:first-of-type+span {
+  color: red;
+
+}
+
+  
+div > span {
+  background-color: 	#66CDAA;
+
+}
+
+
